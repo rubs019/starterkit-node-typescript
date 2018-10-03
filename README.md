@@ -10,11 +10,11 @@ This informations for the POC is :
 4. Personnalisable notes
 
  ## Tech
- .. Node.js
- .. noSQL 
- .. TypeScript
- .. Express.js
- .. Swagger
+ ..* Node.js
+ ..* noSQL 
+ ..* TypeScript
+ ..* Express.js
+ ..* Swagger
  
  ## Date information
  Project start : 03/10/2018
