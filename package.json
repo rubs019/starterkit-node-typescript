@@ -1,0 +1,31 @@
+{
+  "name": "aubagy-api",
+  "version": "0.0.1",
+  "description": "API for my quest of work in auberge de jeunesse",
+  "main": "./dist/www.js",
+  "dependencies": {
+    "@types/request": "^2.47.1",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.0",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.1"
+  },
+  "scripts": {
+    "build": "tsc --traceResolution true",
+    "watcher": "tsc --watch --declarationMap true",
+    "start": "node ./dist/www.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubs019/aubagy-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rubs019/aubagy-api/issues"
+  },
+  "homepage": "https://github.com/rubs019/aubagy-api#readme"
+}
